@@ -49,7 +49,7 @@
         </div>
         <div class="chart-container">
             <p class="avrg" style="">
-                ოჯახში ძალადობის მსხვერპლები საქართველოში, 2018-2022</p>
+                ოჯახური ძალადობის მსხვერპლები საქართველოში (კაცი)</p>
             <canvas id="myChart1"></canvas>
         </div>
             <div class="chart-container">
@@ -57,7 +57,8 @@
                 <canvas id="canvas"></canvas>
             </div>
         <div class="chart-container" >
-            <p style="padding-top: 25px;"></p>
+            <p class="avrg" style="padding-top: 20px;">
+                ოჯახური ძალადობის მსხვერპლები საქართველოში (ქალი)</p>
             <canvas id="myChart2"></canvas>
         </div>
     </div>
@@ -96,6 +97,7 @@
                 options: {
                     text: 'Average number of months of residential domestic violence in 2022',
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             stacked: true,
@@ -132,6 +134,7 @@
                 options: {
                     text: 'Average number of months of residential domestic violence in 2022',
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             stacked: true,
@@ -168,6 +171,7 @@
                 options: {
                     text: 'Average number of months of residential domestic violence in 2022',
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             stacked: true,
@@ -217,6 +221,7 @@
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             stacked: true,
@@ -252,6 +257,7 @@
                 },
                 options: {
                     responsive: true,
+                    maintainAspectRatio: false,
                     scales: {
                         y: {
                             stacked: true,
@@ -302,7 +308,7 @@
 
                 options: {
                     responsive: true,
-                    maintainAspectRatio: true,
+                    maintainAspectRatio: false,
                     plugins: {
                         legend: {
                             labels: {

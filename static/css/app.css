@@ -214,10 +214,18 @@ textarea:hover {
     position: relative;
     max-width: 800px;
     margin: 18px;
-    height: 30vh;
+    height: 40vh;
     flex: 0 0 auto;
     width: 100%;
-}
+  }
+  .main-container > div {
+    padding: 40px 10px !important;
+    height: 250px;
+  }
+
+  .avrg {
+    padding-top: 40px;
+  }
 
 .main-container {
     display: flex;
