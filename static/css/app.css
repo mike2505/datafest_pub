@@ -7,6 +7,16 @@
     margin: 0;
 }
 
+::-webkit-scrollbar {
+  color: rgb(11,11,11);
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 99, 132);
+  border-radius: 12px;
+}
+
 .swal2-container.swal2-backdrop-show {     background: rgba(0,0,0,.7); }
 
 body {
