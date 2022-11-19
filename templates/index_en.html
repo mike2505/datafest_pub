@@ -19,7 +19,7 @@
 <body>
     <script>
         Swal.fire({
-            title: "<h1 style='color:rgb(255, 99, 132); font-family: Poppins'; font-size:16px;>" + 'Dont Be Afraid' + "</h1>",
+            title: "<style= style='color:rgb(255, 99, 132); font-family: Poppins'; font-size:16px;>" + 'Don\'t be afraid to ask for' + '<span style="font-weight:600;">' + ' HELP' + "</span>" + "</h1>",
             text: "Call Right Now - 112",
             showConfirmButton: false,
             background: '#0B0B0B',
@@ -34,13 +34,14 @@
     <br><br>
     <center>
         <h1>Domestic Violence Awareness</h1>
+        <p>According to the National Coalition Against Domestic Violence, about 20 people per minute are physically abused by an intimate partner.</p>
         <p>Every year, November is Domestic Violence Awareness Month</p>
         <a href="/ka" style="text-decoration: none; color: rgb(255, 99, 132)">Change Language</a>
     </center>
-    <br><br>
+    <!-- <br><br>
     <center>
         <p>According to the National Coalition Against Domestic Violence, worldwide about 20 people per minute are physically abused by an intimate partner.</p>
-    </center>
+    </center> -->
     <br><br>
     <div class="container main-container">
         <div class="chart-container">
@@ -48,26 +49,22 @@
             <canvas id="myChart"></canvas>
         </div>
         <div class="chart-container">
-            <p class="avrg" style="">domestic violence victims in Georgia, 2018-2022 (Male)</p>
-            <canvas id="myChart1"></canvas>
+            <p class="avrg" style="padding-top: 20px">Victims of domestic violence in Georgia by age, 2022</p>
+            <canvas id="myChart5" class="chart5"></canvas>
         </div>
             <div class="chart-container">
                 <p class="avrg" style="padding-top: 20px;">The peak of domestic violence was in Georgia, 2020</p>
                 <canvas id="canvas"></canvas>
             </div>
-        <div class="chart-container" >
-            <p class="avrg" style="padding-top: 20px;">domestic violence victims in Georgia, 2018-2022 (Female)</p>
-            <canvas id="myChart2"></canvas>
-        </div>
-    </div>
-    <div class="container main-container">
-        <div class="chart-container">
-            <p class="avrg" style="padding-top: 20px">Victims of domestic violence in Georgia by age, 2022</p>
-            <canvas id="myChart5" class="chart5"></canvas>
-        </div>
         <div class="chart-container">
             <p class="avrg" style="padding-top: 20px">Abusers of domestic violence in Georgia by age, 2022</p>
             <canvas id="myChart6" class="chart5"></canvas>
+        </div>
+    </div>
+    <div class="container main-container">
+        <div class="chart-container" style="max-width: inherit !important;width: 100%;height: 21rem">
+            <p class="avrg" style="padding-top: 20px">domestic violence victims in Georgia, 2018-2022</p>
+            <canvas id="myChart2" style="width: 100%;height: 21rem"></canvas>
         </div>
     </div>
     <br><br><br>
@@ -97,7 +94,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
@@ -250,6 +246,12 @@
                             borderColor: "rgb(255, 99, 132)",
                             data: [{{fm[4][1]}}, {{fm[3][1]}}, {{fm[2][1]}}, {{fm[1][1]}}, {{fm[0][1]}}],
                         },
+                        {
+                            label: "Male",
+                            backgroundColor: "rgb(34,152,167)",
+                            borderColor: "rgb(34,152,167)",
+                            data: [{{fm[4][0]}}, {{fm[3][0]}}, {{fm[2][0]}}, {{fm[1][0]}}, {{fm[0][0]}}]
+                        }
                     ]
                 },
                 options: {
@@ -257,7 +259,7 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
+                            // stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
