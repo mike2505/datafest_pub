@@ -19,7 +19,7 @@
 <body>
     <script>
         Swal.fire({
-            title: "<h1 style='color:rgb(255, 99, 132); font-family: Poppins'; font-size:16px;>" + 'არ შეგეშინდეს' + "</h1>",
+            title: "<h1 style='color:rgb(255, 99, 132); font-family: Poppins'; font-size:16px;>" + 'არ შეგეშინდეს დახმარების მოთხოვნის' + "</h1>",
             text: "დარეკე ცხელ ხაზზე - 112",
             showConfirmButton: false,
             background: '#0B0B0B',
@@ -34,12 +34,9 @@
     <br><br>
     <center>
         <h1>ოჯახური ძალადობის ცნობიერება</h1>
+        <p>ოჯახური ძალადობის წინააღმდეგ ეროვნული კოალიციის თანახმად, მსოფლიოში წუთში დაახლოებით 20 ადამიანზე ფიზიკურად ძალადობენ.</p>
         <p>ყოველწლიურად ნოემბერი არის ოჯახური ძალადობის შესახებ ცნობიერების ამაღლების თვე</p>
         <a href="/" style="text-decoration: none; color: rgb(255, 99, 132)">ენის შეცვლა</a>
-    </center>
-    <br><br>
-    <center>
-        <p>ოჯახური ძალადობის წინააღმდეგ ეროვნული კოალიციის თანახმად, მსოფლიოში წუთში დაახლოებით 20 ადამიანზე ფიზიკურად ძალადობენ.</p>
     </center>
     <br><br>
     <div class="container main-container">
@@ -47,30 +44,25 @@
             <p class="avrg" style="">ოჯახური ძალადობის რაოდენობა საქართველოში, 2022</p>
             <canvas id="myChart"></canvas>
         </div>
-        <div class="chart-container">
-            <p class="avrg" style="">
-                ოჯახური ძალადობის მსხვერპლები საქართველოში (კაცი)</p>
-            <canvas id="myChart1"></canvas>
-        </div>
+            <div class="chart-container">
+                <p class="avrg" style="padding-top: 20px">ოჯახში ძალადობის მსხვერპლები საქართველოში ასაკის მიხედვით, 2022</p>
+                <canvas id="myChart5" class="chart5"></canvas>
+            </div>
             <div class="chart-container">
                 <p class="avrg" style="padding-top: 20px;">ოჯახური ძალადობის პიკი საქართველოში, 2020 წელი იყო</p>
                 <canvas id="canvas"></canvas>
             </div>
-        <div class="chart-container" >
+            <div class="chart-container">
+                <p class="avrg" style="padding-top: 20px">მოძალადეები საქართველოში ასაკის მიხედვით, 2022
+                </p>
+                <canvas id="myChart6" class="chart5"></canvas>
+            </div>
+    </div>
+    <div class="container main-container">
+        <div class="chart-container" style="max-width: inherit !important;width: 100%;height: 21rem" >
             <p class="avrg" style="padding-top: 20px;">
                 ოჯახური ძალადობის მსხვერპლები საქართველოში (ქალი)</p>
             <canvas id="myChart2"></canvas>
-        </div>
-    </div>
-    <div class="container main-container">
-        <div class="chart-container">
-            <p class="avrg" style="padding-top: 20px">ოჯახში ძალადობის მსხვერპლები საქართველოში ასაკის მიხედვით, 2022</p>
-            <canvas id="myChart5" class="chart5"></canvas>
-        </div>
-        <div class="chart-container">
-            <p class="avrg" style="padding-top: 20px">მოძალადეები საქართველოში ასაკის მიხედვით, 2022
-            </p>
-            <canvas id="myChart6" class="chart5"></canvas>
         </div>
     </div>
 
@@ -100,7 +92,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
@@ -137,7 +128,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
@@ -174,7 +164,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
@@ -224,7 +213,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
@@ -253,6 +241,12 @@
                             borderColor: "rgb(255, 99, 132)",
                             data: [{{fm[4][1]}}, {{fm[3][1]}}, {{fm[2][1]}}, {{fm[1][1]}}, {{fm[0][1]}}],
                         },
+                        {
+                            label: "კაცი",
+                            backgroundColor: "rgb(34,152,167)",
+                            borderColor: "rgb(34,152,167)",
+                            data: [{{fm[4][0]}}, {{fm[3][0]}}, {{fm[2][0]}}, {{fm[1][0]}}, {{fm[0][0]}}]
+                        }
                     ]
                 },
                 options: {
@@ -260,7 +254,6 @@
                     maintainAspectRatio: false,
                     scales: {
                         y: {
-                            stacked: true,
                             grid: {
                                 display: true,
                                 color: 'rgba(255,99,132,0.2)'
