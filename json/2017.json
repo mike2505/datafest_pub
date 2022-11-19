@@ -1,0 +1,97 @@
+{
+    "aWara": {
+        "Physical": 85,
+        "Psycological": 466,
+        "Economical": 12,
+        "Sexual": 3,
+        "Compulsive": 12,
+        "Neglect": 5
+    },
+    "guria": {
+        "Physical": 14,
+        "Psycological": 48,
+        "Economical": 3,
+        "Sexual": 0,
+        "Compulsive": 5,
+        "Neglect": 0
+    },
+    "Tbilisi": {
+        "Physical": 443,
+        "Psycological": 1808,
+        "Economical": 74,
+        "Sexual": 3,
+        "Compulsive": 37,
+        "Neglect": 6
+    },
+    "imereTi": {
+        "Physical": 231,
+        "Psycological": 544,
+        "Economical": 16,
+        "Sexual": 1,
+        "Compulsive": 7,
+        "Neglect": 5
+    },
+    "kaxeTi": {
+        "Physical": 35,
+        "Psycological": 408,
+        "Economical": 11,
+        "Sexual": 2,
+        "Compulsive": 25,
+        "Neglect": 3
+    },
+    "mcxeTa-mTianeTi": {
+        "Physical": 0,
+        "Psycological": 84,
+        "Economical": 0,
+        "Sexual": 0,
+        "Compulsive": 1,
+        "Neglect": 2
+    },
+    "raWa-leCxumi": {
+        "Physical": 14,
+        "Psycological": 42,
+        "Economical": 0,
+        "Sexual": 0,
+        "Compulsive": 0,
+        "Neglect": 0
+    },
+    "samegrelo-zemosvaneTi": {
+        "Physical": 49,
+        "Psycological": 220,
+        "Economical": 12,
+        "Sexual": 0,
+        "Compulsive": 1,
+        "Neglect": 2
+    },
+    "samcxe-javaxeTi": {
+        "Physical": 10,
+        "Psycological": 35,
+        "Economical": 0,
+        "Sexual": 0,
+        "Compulsive": 1,
+        "Neglect": 0
+    },
+    "qvemoqarTli": {
+        "Physical": 95,
+        "Psycological": 312,
+        "Economical": 13,
+        "Sexual": 0,
+        "Compulsive": 4,
+        "Neglect": 1
+    },
+    "SidaqarTli": {
+        "Physical": 14,
+        "Psycological": 209,
+        "Economical": 2,
+        "Sexual": 0,
+        "Compulsive": 4,
+        "Neglect": 0
+    },
+    "saqarTvelo": {
+        "Physical": 990,
+        "Psycological": 4176,
+        "Economical": 143,
+        "Sexual": 9,
+        "Compulsive": 97
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "aWara": {
+        "Physical": 86,
+        "Psycological": 322,
+        "Economical": 7,
+        "Sexual": 0,
+        "Compulsive": 2
+    },
+    "guria": {
+        "Physical": 41,
+        "Psycological": 53,
+        "Economical": 3,
+        "Sexual": 1,
+        "Compulsive": 9
+    },
+    "Tbilisi": {
+        "Physical": 509,
+        "Psycological": 1159,
+        "Economical": 61,
+        "Sexual": 9,
+        "Compulsive": 46
+    },
+    "imereTi": {
+        "Physical": 184,
+        "Psycological": 379,
+        "Economical": 9,
+        "Sexual": 0,
+        "Compulsive": 4
+    },
+    "kaxeTi": {
+        "Physical": 77,
+        "Psycological": 298,
+        "Economical": 16,
+        "Sexual": 0,
+        "Compulsive": 14
+    },
+    "mcxeTa-mTianeTi": {
+        "Physical": 4,
+        "Psycological": 79,
+        "Economical": 0,
+        "Sexual": 0,
+        "Compulsive": 0
+    },
+    "raWa-leCxumi": {
+        "Physical": 7,
+        "Psycological": 19,
+        "Economical": 1,
+        "Sexual": 0,
+        "Compulsive": 0
+    },
+    "samegrelo-zemosvaneTi": {
+        "Physical": 69,
+        "Psycological": 159,
+        "Economical": 10,
+        "Sexual": 0,
+        "Compulsive": 6
+    },
+    "samcxe-javaxeTi": {
+        "Physical": 7,
+        "Psycological": 25,
+        "Economical": 4,
+        "Sexual": 0,
+        "Compulsive": 0
+    },
+    "qvemoqarTli": {
+        "Physical": 126,
+        "Psycological": 301,
+        "Economical": 10,
+        "Sexual": 0,
+        "Compulsive": 7
+    },
+    "SidaqarTli": {
+        "Physical": 41,
+        "Psycological": 207,
+        "Economical": 8,
+        "Sexual": 1,
+        "Compulsive": 8
+    },
+    "saqarTvelo": {
+        "Physical": 1151,
+        "Psycological": 3001,
+        "Economical": 129,
+        "Sexual": 11,
+        "Compulsive": 96
+    }
+}
